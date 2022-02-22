@@ -1,5 +1,8 @@
 print("----")
 var = 10
+
+var1 = 50
+
 print("var is: ", var)
 print("----")
 def foo():
@@ -19,6 +22,8 @@ def bar():
     print("----")
 
 bar()
+
+del var1
 
 print("outside, var is: ", var)
 print("----")
