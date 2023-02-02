@@ -10,6 +10,9 @@ class Shark:
 
 
 class BabyShark(Shark):
+    def __init__(self, name):
+        super().__init__(name) # run superclass initialization
+        
     def cry(self):
         return self.name + " is crying because it is a baby."
 
