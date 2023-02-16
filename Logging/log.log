@@ -1,0 +1,12 @@
+2023-02-16 15:54:37,282 - DEBUG - debug
+2023-02-16 15:54:37,282 - INFO - info
+2023-02-16 15:54:37,282 - WARNING - warning
+2023-02-16 15:54:37,282 - ERROR - error
+2023-02-16 15:54:37,282 - CRITICAL - critical
+2023-02-16 15:54:37,282 - DEBUG - the value of x is 2
+2023-02-16 15:54:37,282 - ERROR - test
+Traceback (most recent call last):
+  File "/Users/fgias/GoogleDrive/00-Main/Programming/Python/Python Mini-Projects/Logging/logging_test.py", line 16, in <module>
+    1/0
+ZeroDivisionError: division by zero
+2023-02-16 15:54:37,282 - INFO - test the custom logger
